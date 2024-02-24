@@ -5,7 +5,7 @@ function MyComponents ({label,image,diet,calories,ingredients}) {
             <h2>{label}</h2>
             </div>
             <div className="container">
-            <img className="pic" src={image}/>
+            <img className="pic" src={image} alt="pic"/>
             </div>
             <div className="container">
             <h3>{diet}</h3>
